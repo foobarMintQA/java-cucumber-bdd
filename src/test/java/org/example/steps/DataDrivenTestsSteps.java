@@ -46,4 +46,9 @@ public class DataDrivenTestsSteps {
             System.out.println("On loop: Employee with emp code >> \"" + num + "\" has username as >> \"" + username + "\"");
         }
     }
+
+    @Then("I enter username {string} with emp code {int}")
+    public void iEnterUsernameWithEmpCode(String str, int empCode) {
+
+    }
 }
